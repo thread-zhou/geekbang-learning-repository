@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 用于实现线程池
+ * 线程池工具类
  * @author zhoujian
  */
 public class ExecutorServicePool {

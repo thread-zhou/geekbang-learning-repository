@@ -1,7 +1,6 @@
 package com.zhoujian.socket.client;
 
 import com.zhoujian.socket.ExecutorServicePool;
-import com.zhoujian.socket.server.SocketServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,10 +13,21 @@ import java.net.Socket;
  */
 public class SocketClient {
 
+    /**
+     * 服务端套接字IP地址
+     */
     private static String HOST = "127.0.0.1";
+    /**
+     * 服务端套接字监听端口
+     */
     private static int PORT = 8088;
     private static Logger logger = LoggerFactory.getLogger(SocketClient.class);
 
+    /**
+     * 于主线程中初始化客户端套接字，并完成与服务端套接字的连接
+     * @param args
+     * @throws IOException
+     */
     public static void main(String[] args) throws IOException {
         Socket client = new Socket(HOST, PORT);
         ExecutorServicePool.executorService.execute(new ReceiveThread(client));
@@ -31,6 +41,9 @@ public class SocketClient {
         }
     }
 
+    /**
+     * 用于接收服务端套接字的应答
+     */
     static class ReceiveThread implements Runnable{
 
         private Socket socket;
