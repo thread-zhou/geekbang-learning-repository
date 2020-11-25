@@ -273,7 +273,7 @@ public class SocketClient {
 
 ## 说明
 
-> 本节内容涉及的完整代码地址：[socket-example](https://github.com/thread-zhou/geekbang-learning-repository/tree/dev/network-program/socket/socket-example)
+> 本节内容涉及的完整代码地址：[socket-example](https://github.com/thread-zhou/geekbang-learning-repository/tree/master/network-program/src/main/java/com/zhoujian/network/socket)
 
 ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 本文内容大部分源自极客时间以及网络博客图文内容节选，如有冒犯，还请告知我进行处理
