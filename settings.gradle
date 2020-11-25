@@ -1,2 +1,4 @@
-rootProject.name = 'geekbang-learning-repository-demo'
+rootProject.name = 'geekbang-learning-repository'
+include 'dig-into-the-java-virtual-machine'
+include 'network-program'
 
