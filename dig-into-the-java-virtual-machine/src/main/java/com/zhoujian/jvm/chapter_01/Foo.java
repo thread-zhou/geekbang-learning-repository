@@ -1,4 +1,4 @@
-package com.zhoujian.chapter_01;
+package com.zhoujian.jvm.chapter_01;
 
 /**
  * @ClassName: Foo
