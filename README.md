@@ -9,7 +9,7 @@
 
 - 操作系统: windows 10 专业版
 - Ide: IntelliJ IDEA 2020.2
-- jdk: 1.8 (1.8.0_202)
+- jdk: 11 (11.0.9)
 - gradle: 6.5
 
 ## 学习列表
